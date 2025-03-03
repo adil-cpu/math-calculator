@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Онлайн Калькулятор</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.5.1/math.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>📚 Онлайн Калькулятор</h1>
+
+<!-- 🔹 Решение уравнений -->
+<h2>📏 Решение уравнений</h2>
+<input type="text" id="equationInput" placeholder="Введите уравнение, например: 2x + 3 = 7">
+<button onclick="solveEquation()">Решить</button>
+<p id="equationResult"></p>
+
+<!-- 🔹 Производные -->
+<h2>📈 Производные</h2>
+<input type="text" id="derivativeInput" placeholder="Введите выражение, например: x^3">
+<button onclick="solveDerivative()">Вычислить</button>
+<p id="derivativeResult"></p>
+
+<!-- 🔹 Интегралы -->
+<h2>∫ Интегралы</h2>
+<input type="text" id="integralInput" placeholder="Введите выражение, например: x^3">
+<button onclick="solveIntegral()">Вычислить</button>
+<p id="integralResult"></p>
+
+<script src="script.js"></script>
+</body>
+</html>
